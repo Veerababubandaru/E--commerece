@@ -1,0 +1,101 @@
+This is Front End of E-commerce project.
+HTML, CSS, Bootstrap and javascript have been made use to create the project.
+
+
+Two files has been created in order to add the header in all pages of the project.
+1. header.html 
+    It consists of two parts:
+    -> logo, search box at center and login & cart buttons.
+    -> links to the products and the categories, as well as contact page.
+2. footer.html
+    It consists of links to the categories, login, contact and with a copyright message at the bottom.
+
+The main file is index.html.
+There are other pages which are under "/nav" folder, which are as follows:
+-> product.html
+    consists of all products under all categories. which has been created using grid system and cards.
+
+-> contact.html
+    consists of a form containing name,emailID and message with submit button. This page is also created using grid system which consists of two columns.
+
+-> login.html
+    consists of a form containing emailID and password with login button which when pressed executes the javascript code in order to validate the conditions provided.
+
+-> cart.html
+    Consist of two parts in a grid System. The first displays the item details and the second part is the summary of the price, shipping and a total price and a check out button.
+
+-> womendresses.html
+-> womenkurtas.html
+-> womenloungewear.html
+-> menshirts.html
+-> menhoodies.html
+-> menloungewear.html
+    Above mentioned, all five files consist of a grid system wherein it contains five cards which displays the product details according to the category.
+
+For all of the other pages which are mentioned above consist of header and footer, which is loaded dynamically using Jquery which is written under <script> tag.
+
+Following bootstrap class names have been made use:
+    -> .container, .container-fluid
+    -> .text-center
+    -> .text(-dark)
+    -> .row
+    -> .col(lg-large devices, md-medium devices, sm-small devices)
+    -> .form-control
+    -> .btn
+    -> .btn(-success,-danger,-secondary)
+    -> .card
+    -> .card-header
+    -> .card-body
+    -> .img-thumbnail
+    -> .fa
+    -> .fa-minus
+    -> .fa-plus
+    -> .fa-trash
+    -> .fa-copyright
+    -> .form-inline
+    -> .form-control
+    -> .navbar-nav
+    -> .nav-links
+    -> .navbar
+    -> .navbar-expand-lg
+    -> .navbar-light
+    -> .navbar-toggler
+    -> .me-auto
+    -> .ms-auto
+    -> .mx-auto
+    -> .nav-item
+    -> .dropdown
+    -> .dropdown-item
+    -> .dropdown-menu
+    -> .dropdown-toggle
+    -> .dropdown-content
+
+
+Following javascript methods are used:
+    -> document.getElementById()
+    -> onclick
+    -> alert()
+    -> functions
+
+Following CSS stylings Are used:
+    -> font-weight
+    -> backdrop-filter
+    -> border-bottom-left-radius
+    -> border-top-right-radius
+    -> padding
+    -> background-repeat
+    -> background-attachment
+    -> background-position
+    -> background-size
+    -> font-family
+    -> position
+    -> justify-content
+    -> align-items
+    -> tranform
+    -> text-align
+    -> z-index
+    -> text-decoration
+    -> display
+    -> box-shadow
+    
+The project is made as per the assignment document and all necessary details have been included using comments and brief details have been provided above.
