@@ -1,0 +1,41 @@
+
+/* common stylings given to all pages 
+backdrop-filter: blur() to blur the background image*/
+.bg-img{
+    background-image: url("./assets/bg5.avif");
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+a:hover{
+    background-color:goldenrod;
+}
+
+/* index.html stylings*/
+
+/* home page stylings
+
+positioning of text upon background image */
+.shop{
+    min-height: 600px;
+    position: relative;
+    background: url(./assets/photo.avif) no-repeat center;
+    background-size: auto;
+}
+.slogan{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    backdrop-filter: blur(20px);
+    color: goldenrod;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
